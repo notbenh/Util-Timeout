@@ -5,6 +5,7 @@ Revision history for Perl module Util::Timeout
     - Added abstract section to pod
     - Added [GithubMeta] to dist.ini, so github repo will appear in metadata
     - Added github repo to pod
+    - Added AUTHOR and COPYRIGHT AND LICENSE sections to pod
 
 0.01 2011-01-03
     - First version released to CPAN
