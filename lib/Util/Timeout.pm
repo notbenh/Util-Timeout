@@ -2,11 +2,15 @@ use strict;
 use warnings;
 package Util::Timeout;
 use POSIX qw{ceil};
-use Exporter::Declare qw{-magic};
+use Exporter::Declare::Magic;
 use Sys::SigAction qw{timeout_call};
 use Devel::Declare::Parser::Sublike;
 
 # ABSTRACT: thin wrapper around Sys::SigAction::timeout_call
+
+=head1 NAME
+
+Util::Timeout - thin wrapper around Sys::SigAction::timeout_call
 
 =head1 SYNOPSIS 
 
@@ -69,3 +73,20 @@ default_export retry sublike {
 }
 
 1;
+
+=head1 REPOSITORY
+
+L<https://github.com/notbenh/Util-Timeout>
+
+=head1 AUTHOR
+
+Ben Hengst E<lt>notbenh@cpan.org<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Ben Hengst E<lt>notbenh@cpan.org<gt>.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+
