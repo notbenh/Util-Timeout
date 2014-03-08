@@ -8,6 +8,10 @@ use Devel::Declare::Parser::Sublike;
 
 # ABSTRACT: thin wrapper around Sys::SigAction::timeout_call
 
+=head1 NAME
+
+Util::Timeout - thin wrapper around Sys::SigAction::timeout_call
+
 =head1 SYNOPSIS 
 
   use Util::Timeout;
