@@ -73,3 +73,8 @@ default_export retry sublike {
 }
 
 1;
+
+=head1 REPOSITORY
+
+L<https://github.com/notbenh/Util-Timeout>
+
