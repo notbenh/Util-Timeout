@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Util::Timeout;
 use POSIX qw{ceil};
-use Exporter::Declare qw{-magic};
+use Exporter::Declare::Magic;
 use Sys::SigAction qw{timeout_call};
 use Devel::Declare::Parser::Sublike;
 
